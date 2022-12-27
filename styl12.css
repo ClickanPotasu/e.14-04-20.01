@@ -1,0 +1,49 @@
+html,body{
+    font-family: Verdana;
+}
+.menu{
+    background-color: SandyBrown;
+    height: 120px;
+    width: 60%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-color: Sienna;
+    color: white;
+    text-align: center;
+    height: 120px;
+    width: 40%;
+    float: left;
+}
+.lewy{
+    background-color: sienna;
+    color: white;
+    height: 700px;
+    width: 60%;
+    float: left;
+}
+.prawy{
+    background-color: sandybrown;
+    height: 700px;
+    width: 40%;
+    float: left;
+}
+.stopka{
+    background-color: #4D1900;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+.menu>a:link{
+    background-color: green;
+    color: yellow;
+    padding: 20px 50px 20px 50px;
+    
+}
+.menu>a:hover{
+    background-color: yellow;
+    color: green;
+    padding: 20px 50px 20px 50px;
+}
